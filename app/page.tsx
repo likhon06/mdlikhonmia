@@ -901,7 +901,7 @@ export default function Portfolio() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-800 lg:flex">
       {/* Mobile Menu Button */}
-      <div className="lg:hidden fixed top-4 left-4 z-50">
+      <div className="lg:hidden fixed top-2 left-2 z-50">
         <Button
           variant="outline"
           size="icon"
@@ -914,7 +914,7 @@ export default function Portfolio() {
 
       {/* Mobile Collapse Button - Only show when sidebar is open */}
       {sidebarOpen && (
-        <div className="lg:hidden fixed top-4 left-16 z-50">
+        <div className="lg:hidden fixed top-2 left-14 z-50">
           <Button
             variant="outline"
             size="icon"
@@ -930,7 +930,7 @@ export default function Portfolio() {
       )}
 
       {/* Mobile Theme Toggle */}
-      <div className="lg:hidden fixed top-4 right-4 z-50">
+      <div className="lg:hidden fixed top-2 right-2 z-50">
         <Button
           variant="outline"
           size="icon"
@@ -955,7 +955,7 @@ export default function Portfolio() {
       </div>
 
       {/* Desktop Controls */}
-      <div className="hidden lg:flex fixed top-4 right-4 z-50 gap-2">
+      <div className="hidden lg:flex fixed top-2 right-2 z-50 gap-2">
         <Button
           variant="outline"
           size="icon"
@@ -1066,40 +1066,8 @@ export default function Portfolio() {
             </ul>
           </nav>
 
-          {/* Theme Toggle & Footer */}
+          {/* Footer */}
           <div className="p-4 border-t border-slate-200 dark:border-slate-700">
-            {!sidebarCollapsed && (
-              <div className="mb-4">
-                <div className="flex items-center justify-between mb-3">
-                  <span className="text-sm font-medium text-slate-700 dark:text-slate-300">Appearance</span>
-                  <Badge variant="outline" className="text-xs">
-                    {theme === "dark" ? "Dark" : "Light"}
-                  </Badge>
-                </div>
-                <Button
-                  onClick={handleThemeToggle}
-                  className="w-full flex items-center justify-center space-x-2 py-3 bg-gradient-to-r from-blue-500 to-purple-500 hover:from-blue-600 hover:to-purple-600 text-white border-0"
-                  size="sm"
-                >
-                  <motion.div
-                    initial={false}
-                    animate={{
-                      rotate: theme === "dark" ? 180 : 0,
-                      scale: theme === "dark" ? 1 : 1,
-                    }}
-                    transition={{ duration: 0.3, ease: "easeInOut" }}
-                    className="flex items-center"
-                  >
-                    {theme === "dark" ? (
-                      <Sun className="h-5 w-5 text-yellow-300" />
-                    ) : (
-                      <Moon className="h-5 w-5 text-blue-100" />
-                    )}
-                  </motion.div>
-                  <span className="font-medium">Switch to {theme === "dark" ? "Light" : "Dark"} Mode</span>
-                </Button>
-              </div>
-            )}
             <div className="text-xs text-slate-500 dark:text-slate-400 text-center">
               {!sidebarCollapsed && "© 2025 Md Likhon Mia"}
             </div>
