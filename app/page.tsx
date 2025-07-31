@@ -211,7 +211,7 @@ export default function Portfolio() {
             >
               <div className="w-48 h-48 mx-auto rounded-full overflow-hidden border-4 border-white dark:border-slate-700 shadow-2xl">
                 <Image
-                  src="https://i.ibb.co/5XBntgqy/NR-P0106-cleanup.png"
+                  src="https://i.ibb.co/SXj7xLcK/NR-P0106-cleanup-optimized-2000.png"
                   alt="Md Likhon Mia"
                   width={192}
                   height={192}
