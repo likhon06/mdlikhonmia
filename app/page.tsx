@@ -355,8 +355,8 @@ export default function Portfolio() {
                     <h4 className="text-xl font-semibold">Achievements</h4>
                   </div>
                   <ul className="space-y-2 text-slate-600 dark:text-slate-300">
-                    <li>• 2nd Position - CampusBoi Programming Contest</li>
-                    <li>• 13th Position - Unlock Algorithm Contest</li>
+                    <li>• 3rd Position - CampusBoi Programming Contest</li>
+                    <li>• Unlock Algorithm Contest</li>
                     <li>• CGPA: 3.59/4.00 in CSE</li>
                     <li>• 500+ Competitive Programming Problems Solved</li>
                   </ul>
@@ -688,7 +688,7 @@ export default function Portfolio() {
             transition={pageTransition}
             className="container mx-auto max-w-7xl px-4 py-8"
           >
-            <h2 className="text-4xl font-bold text-center mb-16">
+            <h2 className="text-4xl font-bold text-center mb-16 mt-4">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Featured Projects
               </span>
@@ -770,7 +770,7 @@ export default function Portfolio() {
             transition={pageTransition}
             className="container mx-auto max-w-4xl px-4 py-8"
           >
-            <h2 className="text-4xl font-bold text-center mb-8">
+            <h2 className="text-4xl font-bold text-center mb-8 mt-4">
               <span className="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
                 Let's Work Together
               </span>
