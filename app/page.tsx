@@ -129,16 +129,6 @@ export default function Portfolio() {
 
   const experiences = [
     {
-      title: "Software Development Engineer",
-      company: "Devxhub",
-      period: "Jul 2025 - Present",
-      location: "Dhaka, Bangladesh (Remote)",
-      type: "Full-time",
-      description:
-        "Working as a Software Development Engineer developing enterprise applications using Angular and TypeScript. Contributing to scalable web solutions and implementing modern frontend architectures with RxJS and NgRx for state management.",
-      technologies: ["Angular", "TypeScript", "RxJS", "NgRx", "Node.js"],
-    },
-    {
       title: "Jr. Software Engineer",
       company: "ImpleVista",
       period: "Nov 2024 - May 2025",
